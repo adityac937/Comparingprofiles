@@ -146,7 +146,7 @@ class Compare extends Component {
                 playerTwoName,
             }}
           >
-            Compare Noww
+            Compare Now
           </Link>
         )}
       </div>

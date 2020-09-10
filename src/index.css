@@ -1,0 +1,156 @@
+body {
+  font-family: -apple-system, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0c7567;
+  padding-right: 20px;
+  text-align: end;
+  font-size: larger;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
+
+a:hover {
+  color: black;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  font-family: <link href=
+    "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap"
+    rel= "stylesheet" >;
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 90%;
+  height: 700px;
+  float: left;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  text-align: center;
+  transition: all 0.25s;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+}
+.column input {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.43);
+  border-radius: 7px;
+  font-size: 16px;
+  width: 75%;
+}
+.column label {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 150;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.avatar {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  margin-right: 15px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.reset {
+  background-color: transparent;
+  border: none;
+  color: #944317;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: #5c9210;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+.button:active {
+  transform: translateY(1px);
+}
+.button2 {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #5c9210;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+.button2:active {
+  transform: translateY(1px);
+}

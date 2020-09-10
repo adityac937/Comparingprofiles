@@ -1,0 +1,15 @@
+.CompareButton {
+  align-self: center;
+  background-color: transparent;
+  border: none;
+  color: #455036;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin-left: 500px;
+  font-weight: bold;
+}
+.CompareButton:active {
+  transform: translateY(1px);
+}
